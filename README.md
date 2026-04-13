@@ -12,6 +12,12 @@ The pipeline is orchestrated using a Directed Acyclic Graph (DAG) consisting of 
 3. **`run_process_transactions_script`**: (BashOperator) Executes a shell command to process the data and verify output.
 4. **`Report_email`**: (EmailOperator) Sends the final transaction summary to a designated email address.
 
+## 📊 Pipeline Status
+Successfully executed DAG in a Docker-containerized environment:
+
+![Airflow Grid View](images/airflow_grid.png)
+*Figure 1: Successful execution of all 4 pipeline tasks.*
+
 ## 🛠️ Tech Stack
 - **Orchestration:** Apache Airflow 2.x
 - **Containerization:** Docker & Docker Compose
