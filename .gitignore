@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Airflow logs and local data
+logs/
+shared/transactions_report.txt
+
+# Documentation/Slides (Optional to ignore)
+Airflow.pptx
+Session Task.txt
+
+# OS specific files
+.DS_Store
