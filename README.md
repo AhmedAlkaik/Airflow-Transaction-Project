@@ -16,6 +16,7 @@ The pipeline is orchestrated using a Directed Acyclic Graph (DAG) consisting of 
 Successfully executed DAG in a Docker-containerized environment:
 
 ![Airflow Grid View](images/airflow_grid.png)
+
 *Figure 1: Successful execution of all 4 pipeline tasks.*
 
 ## 🛠️ Tech Stack
